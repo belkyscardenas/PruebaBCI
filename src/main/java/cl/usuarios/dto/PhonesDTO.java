@@ -1,4 +1,4 @@
-package com.example.prueba.dto;
+package cl.usuarios.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,6 +11,9 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class ErrorDTO {
-    private String mensaje;
+public class PhonesDTO {
+
+    private Long number;
+    private Long citycode;
+    private Long contrycode;
 }

@@ -1,4 +1,4 @@
-package com.example.prueba.model;
+package cl.usuarios.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -36,4 +36,7 @@ public class PhoneModel implements Serializable {
 
     @Column(name="country_code")
     private Long countryCode;
+
+    @Column(name="user_id")
+    private Long userId;
 }

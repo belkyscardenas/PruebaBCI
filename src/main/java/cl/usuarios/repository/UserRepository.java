@@ -1,5 +1,5 @@
-package com.example.prueba.repository;
-import com.example.prueba.model.UserModel;
+package cl.usuarios.repository;
+import cl.usuarios.model.UserModel;
 import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository<UserModel, Long> {

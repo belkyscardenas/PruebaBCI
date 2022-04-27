@@ -1,4 +1,4 @@
-package com.example.prueba;
+package cl.usuarios;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
