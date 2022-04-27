@@ -51,4 +51,8 @@ public class UserModel implements Serializable {
     private Boolean isActive;
 
     private String token;
+
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
+    @JoinColumn(name = "idUser")
+    private List<PhoneModel> phones;
 }

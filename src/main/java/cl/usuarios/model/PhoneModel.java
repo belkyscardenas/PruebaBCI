@@ -36,7 +36,4 @@ public class PhoneModel implements Serializable {
 
     @Column(name="country_code")
     private Long countryCode;
-
-    @Column(name="user_id")
-    private Long userId;
 }
